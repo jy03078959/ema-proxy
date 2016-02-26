@@ -1,0 +1,24 @@
+{
+  "name": "ema-proxy",
+  "version": "1.0.0",
+  "description": "event manager",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jy03078959/ema-proxy.git"
+  },
+  "keywords": [
+    "event",
+    "manager",
+    "proxy"
+  ],
+  "author": "kevan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jy03078959/ema-proxy/issues"
+  },
+  "homepage": "https://github.com/jy03078959/ema-proxy#readme"
+}
