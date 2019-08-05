@@ -128,4 +128,4 @@ DisposeableEventManagerProxy.prototype = {
         this.msgs = null;
     }
 };
-module.exports = EventManager;
+module.exports = EventManager();
