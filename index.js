@@ -24,7 +24,6 @@ var EventManager = function(){
             return false;
         },
         unbind: function(type, fn) {
-
             if(type && type.constructor && type.constructor == String) {
 
                 if(!fn) {
@@ -48,7 +47,6 @@ var EventManager = function(){
             return false;
         },
         clear:function(){
-            var me = this;
             this.events = [];
         },
         fire: function(type) {
@@ -128,4 +126,4 @@ DisposeableEventManagerProxy.prototype = {
         this.msgs = null;
     }
 };
-module.exports = EventManager();
+export default EventManager();
